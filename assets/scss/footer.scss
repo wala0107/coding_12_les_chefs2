@@ -1,0 +1,25 @@
+
+footer{
+    background:url('../images/footer_background.jpg');
+    color:white;
+    a{
+        color:white;
+    }
+    a:hover{
+        color:white;
+    }
+    .tags{
+        background-color: $rouge;
+        margin-right: 3px;
+        color:white;
+        border: 1px solid white;
+        border-radius:20px;
+    }
+    .pied{
+        display: flex;
+        background-color: $rouge;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+    }
+}

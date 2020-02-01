@@ -1,0 +1,47 @@
+section.booking{
+    background: $bgwhite;
+    form{
+        background: url('../images/book_table_bg.jpg') center;
+        background-size: 100% 100%;
+        padding: 30px;
+        border-radius:15px;
+        p{font-weight:lighter;}
+        input,select{
+            height: 45px;
+            border-radius:10px;
+        }
+        .numero{
+            font-weight:bold;
+            font-size:18px;
+        }
+        button{
+            text-transform:uppercase;
+        }
+    }
+    .blog{
+        border-radius: 15px;
+        border:3px solid #ececec;
+    }
+    .post{bottom:33px;}
+    .datePost{
+        top: 5px;
+        background-color: $rouge;
+        color:white;
+        font-size:15px;
+        padding: 10px 5px;
+        text-align: center;
+        border-radius: 20px;
+        .nombre{
+            font-weight: bold;
+            font-size:25px
+        }
+
+    }
+    button{
+        background-color: $rouge;
+        border-radius: 30px;
+        padding:10px 25px 10px 25px;
+        color:white;
+        text-transform: uppercase;
+    }
+}

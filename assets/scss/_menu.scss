@@ -1,0 +1,62 @@
+section.menu{
+    background: $bgwhite;
+    
+    aside{
+        border-right: 1px solid gray;
+        width: auto;
+        ul{
+            list-style: none;            
+        }
+        .bouffeGris{
+            color:gray;
+        }
+        
+        .titreBouffe{font-family: Courgette, sans-serif}
+
+        .active{
+            border-right: solid 5px $rouge;
+            .bouffeGris{color: $rouge;}
+        }
+
+        li{
+            border-right: solid 5px $bgwhite;
+        }
+
+        li:hover{
+            border-right: solid 5px $rouge;
+            .bouffeGris{color: $rouge;}
+        }  
+    }
+     
+    h4{
+        font-size:15px;
+        font-weight: bold;
+        margin: 0;
+    }
+    .prix{
+        background-color: #efefef;
+        color:$rouge;
+        padding: 1px 10px;
+    }
+
+    .col-sm-6:after{
+        position: absolute;
+        content: '';
+        margin-top:55px;
+        width: 90%;
+        height: 1px;
+        border-width: 2px;
+        border-style:dotted;
+        border-bottom: black; 
+        opacity: 0.2;
+       
+    }
+
+}
+@media screen and (max-width: 720px){
+
+    aside{
+        left:30%;
+    }
+
+}
